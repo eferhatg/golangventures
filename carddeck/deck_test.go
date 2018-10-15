@@ -16,6 +16,7 @@ func TestNewDeck(t *testing.T) {
 	}
 
 	if d[len(d)-1] != "King of Clubs" {
+
 		t.Errorf("Expected King of Clubs but got %s", d[len(d)-1])
 	}
 }
